@@ -1,15 +1,13 @@
-=== Dubbletrack WP ===
+```=== Dubbletrack WP ===
 Contributors: Dubbletrack. LLC
 Tags: dubbletrack
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
+```
 Dubbletrack helpers for wordpress sites
 
-[dubbletrack data=] is for injecting raw data
-
-[dubbletrack embed=] is for injecting components from dubbletrack
+### Shortcodes
 
 #### Now Playing Info
 `[dubbletrack data="now-playing" key="show-title"]` → currently playing show title
@@ -22,10 +20,10 @@ Dubbletrack helpers for wordpress sites
 
 `[dubbletrack data="now-playing" key="album-name"]` → currently playing album
 
-#### Now Playing
-`[dubbletrack embed="now-playing"]` → now playing component that displays track, show, and show times
+#### Now Playing Widget
+`[dubbletrack embed="now-playing"]` → now playing widget that displays track, show, and show times
 
-#### Station Player
+#### Station Player Widget
 `[dubbletrack embed="station-player"]`
 
 The following additional attributes can also be supplied:
